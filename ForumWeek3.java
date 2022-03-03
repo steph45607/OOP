@@ -59,8 +59,8 @@ public class Main {
         if(a == 0 || (Math.pow(2,b)-4*a*c)<0){
             System.out.println("There are no solution");
         }else {
-            int posX = (int) (((-1 * b) + (Math.sqrt((Math.pow(2, b) - 4 * a * c)))) / 2 * a);
-            int negX = (int) (((-1 * b) - (Math.sqrt((Math.pow(2, b) - 4 * a * c)))) / 2 * a);
+            int posX = (int) (((-1 * b) + (Math.sqrt((Math.pow(b, 2) - 4 * a * c)))) / 2 * a);
+            int negX = (int) (((-1 * b) - (Math.sqrt((Math.pow(b, 2) - 4 * a * c)))) / 2 * a);
             System.out.println("For the values " + a + " " + b + " " + c + " , have the x values " + posX + " and " + negX);
         }
 //        14
