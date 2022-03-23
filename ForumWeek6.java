@@ -5,6 +5,7 @@ import java.io.BufferedReader;
 import java.lang.Math;
 
 public class Main {
+    // Problem 1
     static void PrintArray() throws IOException {
         System.out.println("PRINTARRAYS-MACHINE PROBLEM 1---------------");
         boolean check = true;
@@ -43,6 +44,7 @@ public class Main {
         System.out.print("]");
 
     }
+    // Problem 2
     static void printArrayInStarts() throws IOException {
         System.out.println("PRINTARRAYINSTARS-MACHINE PROBLEM 2---------------");
         boolean check = true;
@@ -76,6 +78,7 @@ public class Main {
             System.out.println("(" + NUM_ITEMS[i] + ")");
         }
     }
+    // Problem 3
     static void gradeCalc(){
         System.out.println("GRADECALC-MACHINE PROBLEM 3---------------");
         boolean check = true;
